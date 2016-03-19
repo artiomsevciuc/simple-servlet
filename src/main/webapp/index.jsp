@@ -9,5 +9,6 @@
 			<br>Is student: <input type="checkbox" name="isStudent">
 			<br><input type="submit" value="Submit">
 	</form>
+	<a href="readPerson">Read person</a>
 </body>
 </html>

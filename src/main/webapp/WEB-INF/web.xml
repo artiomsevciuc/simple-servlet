@@ -12,6 +12,10 @@
 		<servlet-name>CreatePerson</servlet-name>
 		<servlet-class>md.utm.simpleservlet.examle.CreatePersonServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>ReadPersonServlet</servlet-name>
+		<servlet-class>md.utm.simpleservlet.examle.ReadPersonServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>HelloWorld</servlet-name>
 		<url-pattern>/hello</url-pattern>
@@ -19,6 +23,10 @@
 	<servlet-mapping>
 		<servlet-name>CreatePerson</servlet-name>
 		<url-pattern>/createPerson</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReadPersonServlet</servlet-name>
+		<url-pattern>/readPerson</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
